@@ -1,0 +1,483 @@
+{
+	"id": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+	"name": "PruebaTecnicaJJ",
+	"description": "Prueba Tecnica",
+	"order": [],
+	"folders": [
+		{
+			"name": "Cliente",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"order": [
+				"4ea9da06-b186-ae21-be9c-873f13334bb9",
+				"0cead46b-05e1-50aa-8357-836d58fa91f2",
+				"d4d92eef-4c30-e50e-5fa2-3aa29a45a1cb",
+				"43745c1e-54c2-61c0-74c1-3b477bceed8d"
+			],
+			"owner": "11299794",
+			"folders_order": [],
+			"id": "caf90012-9e83-4ad7-43b5-dbc813ae7bad"
+		},
+		{
+			"name": "Cuenta",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"order": [
+				"36557f8e-a82a-d90a-af5c-bd7e4f6a6b99",
+				"82f2ecaa-c98e-f4ea-0348-c895e2e9f45b",
+				"f6dc7c74-74ff-9885-f62c-9c7827966f3a",
+				"461d8a29-072f-9cff-65ba-688471acfa26"
+			],
+			"owner": "11299794",
+			"folders_order": [],
+			"id": "84508337-d913-7455-f8fa-1eaf05930b81"
+		},
+		{
+			"name": "Movimiento",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"order": [
+				"0338e2a6-ff19-6dc1-fc7f-889b2b026c9f",
+				"bcc31d25-6c6c-7f84-922d-7dc770a26579",
+				"8837c63a-816c-060a-336a-6354d787030c",
+				"290bf3e7-dcd8-cac6-e5ec-1cc179c9d203"
+			],
+			"owner": "11299794",
+			"folders_order": [],
+			"id": "193e4ec5-9ad2-92ca-c691-153c6e64aa08"
+		},
+		{
+			"name": "reportes",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"order": [],
+			"owner": "11299794",
+			"folders_order": [],
+			"id": "e39b625b-648b-137c-d982-c9466f47db62"
+		}
+	],
+	"folders_order": [
+		"caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+		"193e4ec5-9ad2-92ca-c691-153c6e64aa08",
+		"84508337-d913-7455-f8fa-1eaf05930b81",
+		"e39b625b-648b-137c-d982-c9466f47db62"
+	],
+	"timestamp": 1647051191090,
+	"owner": "11299794",
+	"public": false,
+	"requests": [
+		{
+			"id": "0338e2a6-ff19-6dc1-fc7f-889b2b026c9f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/movimientos/all",
+			"folder": "193e4ec5-9ad2-92ca-c691-153c6e64aa08",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647121465745,
+			"name": "http://localhost:91/movimientos/all",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "0cead46b-05e1-50aa-8357-836d58fa91f2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/clientes/add",
+			"folder": "caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647236401374,
+			"name": "http://localhost:91/clientes/add",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "290bf3e7-dcd8-cac6-e5ec-1cc179c9d203",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/movimientos/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/movimientos/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236375066,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "193e4ec5-9ad2-92ca-c691-153c6e64aa08",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "36557f8e-a82a-d90a-af5c-bd7e4f6a6b99",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/cuentas/all",
+			"folder": "caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647228787309,
+			"name": "http://localhost:91/cuentas/all",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "43745c1e-54c2-61c0-74c1-3b477bceed8d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/clientes/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/clientes/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236505519,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "461d8a29-072f-9cff-65ba-688471acfa26",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/cuentas/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/cuentas/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236279677,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "84508337-d913-7455-f8fa-1eaf05930b81",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "4ea9da06-b186-ae21-be9c-873f13334bb9",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/clientes/all",
+			"folder": "caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647228766851,
+			"name": "http://localhost:91/clientes/all",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK"
+					},
+					"time": 0,
+					"headers": [],
+					"cookies": [],
+					"mime": "",
+					"text": "",
+					"language": "",
+					"rawDataType": "",
+					"previewType": "parsed",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"name": "http://localhost:8080/api/clientes",
+					"id": "86955181-02fd-0d35-e33e-40a096a181b3",
+					"request": "4ea9da06-b186-ae21-be9c-873f13334bb9",
+					"requestObject": {
+						"url": "http://localhost:91/personas/perso",
+						"pathVariables": {},
+						"pathVariableData": [],
+						"queryParams": [],
+						"headerData": [],
+						"headers": "",
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "82f2ecaa-c98e-f4ea-0348-c895e2e9f45b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/cuentas/add",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/cuentas/add",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236233451,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "84508337-d913-7455-f8fa-1eaf05930b81",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "8837c63a-816c-060a-336a-6354d787030c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/movimientos/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/movimientos/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236299556,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "193e4ec5-9ad2-92ca-c691-153c6e64aa08",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "bcc31d25-6c6c-7f84-922d-7dc770a26579",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/movimientos/add",
+			"folder": "193e4ec5-9ad2-92ca-c691-153c6e64aa08",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647236153554,
+			"name": "http://localhost:91/movimientos/add",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "d4d92eef-4c30-e50e-5fa2-3aa29a45a1cb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/clientes/1",
+			"folder": "caf90012-9e83-4ad7-43b5-dbc813ae7bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1647236466165,
+			"name": "http://localhost:91/clientes/3",
+			"description": "",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"responses": [],
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		},
+		{
+			"id": "f6dc7c74-74ff-9885-f62c-9c7827966f3a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://{{server}}/cuentas/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "6247bfaf-1fa9-4e7f-d794-5d6267cf1031",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:91/cuentas/2",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1647236265094,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "84508337-d913-7455-f8fa-1eaf05930b81",
+			"rawModeData": " {\n        \n        \"contrasenia\": \"123445\",\n        \"estado\": true\n    }"
+		}
+	]
+}
